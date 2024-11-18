@@ -1,0 +1,80 @@
+/* Estilo general del cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    height: 100vh;  /* Asegura que ocupe toda la altura de la pantalla */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+/* Contenedor central para el contenido */
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo del título */
+h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+/* Estilo del botón */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo de la frase generada */
+.phrase {
+    font-size: 1.2em;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Estilos para el header */
+header {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+header a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+header a:hover {
+    background-color: #444;
+}
